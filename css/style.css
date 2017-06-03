@@ -1,0 +1,18 @@
+body {
+	margin: 0 auto;
+}
+
+#carousel {
+	border: 2px solid #000;
+	list-style-type: none;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+}
+#carousel li {
+	float: left;
+}
